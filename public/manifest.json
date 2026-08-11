@@ -1,0 +1,9 @@
+{
+  "author": "Thermetrics",
+  "appId": "6a69ef04616a9a685edddcfc",
+  "version": "1.0.0",
+  "versionDescription": "Conference Leads management — kanban board with phase changes",
+  "config": {
+    "fields": {}
+  }
+}
