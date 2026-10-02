@@ -1,8 +1,8 @@
 {
   "author": "Thermetrics",
   "appId": "6a69ef04616a9a685edddcfc",
-  "version": "1.0.0",
-  "versionDescription": "Conference Leads management — kanban board with phase changes",
+  "version": "1.0.1",
+  "versionDescription": "Reduced background auto-refresh load: was forcing a fresh insight recompute every 5 min flat; now 20 min + up to 5 min random jitter per cycle, to avoid stacking up with other dashboards and tripping the workspace API rate limit.",
   "config": {
     "fields": {}
   }
