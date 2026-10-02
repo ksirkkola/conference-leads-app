@@ -1,8 +1,8 @@
 {
   "author": "Thermetrics",
-  "appId": "6a69ef04616a9a685edddcfc",
-  "version": "1.0.1",
-  "versionDescription": "Reduced background auto-refresh load: was forcing a fresh insight recompute every 5 min flat; now 20 min + up to 5 min random jitter per cycle, to avoid stacking up with other dashboards and tripping the workspace API rate limit.",
+  "appId": "6a1ed7a8283cdd34bf27acc4",
+  "version": "6.1.0",
+  "versionDescription": "Rebuilt from scratch to match the live app (this repo's manifest.json had the wrong appId entirely \u2014 pointing at an unregistered app, not the real Conference Lead Form \u2014 and the code itself was a completely different concept, a lead management board instead of the mobile capture form actually in use). Now a single-page, mobile-first lead-capture form: First Name*, Last Name, Email*, Company, Industry, Product Family, Buying Stage, Conference, Notes, Business Card upload, Submit. Also fixed the Conference dropdown's backing insight, which only listed one user as a member \u2014 it would have come up empty for anyone else staffing a booth.",
   "config": {
     "fields": {}
   }
